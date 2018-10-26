@@ -12,12 +12,6 @@ import pygame, sys,random,time
 from pygame.locals import *
 
 root = tkinter.Tk(className=" NoTeX v1.8")
-'''root.tk.call('wm', 'iconphoto', root._w, image)
- root.iconbitmap(r'/home/crater/Desktop/DS_mini/icon.ico')
-imgicon = PhotoImage(file=os.path.join(
-    '/home/crater/Desktop/DS_mini', 'icon.ico'))
-root.tk.call('wm', 'iconphoto', root._w, imgicon)'''  # Setting icon: Due for another day-> minutes spent = 25+10+30
-# root.wm_iconbitmap('~/Desktop/DS_mini/icon.ico')
 textPad = ScrolledText(root, width=80, height=50, bg="#DCEDC8")
 textPad.configure(font=("sans-serif", 9, "normal"))
 word = " "
